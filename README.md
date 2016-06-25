@@ -1,6 +1,6 @@
 ### World daylight map
 
-Equirectangular projection rendered with SVG.
+Daylight visualisation on equirectangular projection rendered with SVG.
 
 [See the demo.](https://pauljnoble.github.io/world-daylight-map/)
 
