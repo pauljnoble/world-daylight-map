@@ -36,8 +36,8 @@ class DaylightMap {
             bgColorLeft: '#42448A',
             bgColorRight: '#376281',
             lightsColor: '#FFBEA0',
-            worldPaths: '/assets/world-110m.json',
-            citiesDataPath: '/assets/cities-200000.json'
+            worldPaths: '/world-daylight-map/build/assets/world-110m.json',
+            citiesDataPath: '/world-daylight-map/build/assets/cities-200000.json'
         };
 
         this.options = $.extend({}, this.defaults, options);
