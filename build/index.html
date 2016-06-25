@@ -1,0 +1,53 @@
+<html><head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300" rel="stylesheet" type="text/css">
+    <link href='/css/main.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <h1>World daylight map</h1>
+    <p>Equirectangular projection rendered with SVG</p>
+    <div class="container">
+
+        <svg id="daylight-map"></svg>
+        <div class="controls">
+            <p class="curr-time">
+                <a class="js-skip" data-skip="-60" href="#">
+                    &lsaquo;
+                </a>
+                <span></span>
+                <a class="js-skip" data-skip="60" href="#">
+                    &rsaquo;
+                </a>
+            </p>
+            <p class="curr-date">
+                <a class="js-skip big-jump" data-skip="-43200" href="#">
+                    &laquo;
+                </a>
+                <a class="js-skip" data-skip="-1440" href="#">
+                    &lsaquo;
+                </a>
+                <span></span>
+                <a class="js-skip" data-skip="1440" href="#">
+                    &rsaquo;
+                </a>
+                <a class="js-skip big-jump" data-skip="43200" href="#">
+                    &raquo;
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <p class="animate"><a href="#" class="js-animate"></a></p>
+
+    <p class="credit">Using
+        <a href="https://d3js.org/">D3.js</a>,
+        <a href="https://github.com/mbostock/d3/wiki/Geo-Projections">Geocode Projections</a>,
+        <a href="https://github.com/mbostock/topojson">Topojson</a>,
+        <a href="https://github.com/mourner/suncalc">Suncalc</a>,
+        <a href="https://www.maxmind.com/en/free-world-cities-database">MaxMind cities</a>,
+        <a href="http://momentjs.com/">Moment.js</a>
+    </p>
+
+    <script type="text/javascript" src="/js/bundle.js" charset="utf-8"></script>
+</body></html>
